@@ -1,13 +1,17 @@
 :root {
-    --color-primary: #4a69bd; /* Deep blue */
-    --color-secondary: #78e08f; /* Light green */
-    --color-text: #333333; /* Dark gray for text */
-    --color-background: #ffffff; /* White background */
-    --color-accent: #60a3bc; /* Soft blue for accents */
-    --color-border: #e0e0e0; /* Light gray for borders */
-    --spacing-unit: 16px; /* Base unit for spacing */
-    --font-size-base: 16px; /* Base font size */
-    --header-height: 60px; /* Header height */
+    --color-primary: #3478f6; /* Updated to a vibrant blue */
+    --color-secondary: #f0a30a; /* Updated to a warm orange */
+    --color-text: #2e2e2e; /* Updated to a slightly darker gray for better readability */
+    --color-background: #f9f9f9; /* Updated to an off-white for a softer look */
+    --color-accent: #34c2f6; /* Updated to a bright cyan for accents */
+    --color-border: #dcdcdc; /* Updated to a softer gray for borders */
+    --spacing-unit: 16px;
+    --font-size-base: 16px;
+    --header-height: 60px;
+}
+
+a:hover, a:focus {
+    color: #2884c1; /* Darkened version of the new --color-accent for hover and focus states */
 }
 
 * {
