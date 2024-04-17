@@ -1,24 +1,25 @@
+
 :root {
-    --color-primary: #3478f6; /* Updated to a vibrant blue */
-    --color-secondary: #f0a30a; /* Updated to a warm orange */
-    --color-text: #2e2e2e; /* Updated to a slightly darker gray for better readability */
-    --color-background: #f9f9f9; /* Updated to an off-white for a softer look */
-    --color-accent: #34c2f6; /* Updated to a bright cyan for accents */
-    --color-border: #dcdcdc; /* Updated to a softer gray for borders */
+    --color-primary: #ff0000; /* Changed to red */
+    --color-secondary: #000000; /* Changed to black */
+    --color-text: #2e2e2e;
+    --color-background: #f9f9f9;
+    --color-accent: #ff0000; /* Changed to red */
+    --color-border: #dcdcdc;
     --spacing-unit: 16px;
     --font-size-base: 16px;
     --header-height: 60px;
 }
 
 a:hover, a:focus {
-    color: #2884c1; /* Darkened version of the new --color-accent for hover and focus states */
+    color: #b30000; /* Darker shade of red for hover and focus states */
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Didot', serif; /* Changed to Times New Roman, a serif font */
 }
 
 body {
@@ -36,7 +37,7 @@ a {
 }
 
 a:hover, a:focus {
-    color: #4a83a1; /* Darkened version of --color-accent */
+    color: #990000; /* Even darker red */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -113,14 +114,13 @@ ul, ol {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    object-fit: cover; /* Ensure images cover the grid item area */
+    object-fit: cover;
 }
 
 .indent-section {
     padding-left: calc(var(--spacing-unit) * 2);
 }
 
-/* Enhancements for responsiveness */
 @media (max-width: 768px) {
     #header {
         flex-direction: column;
@@ -142,6 +142,6 @@ ul, ol {
     }
 
     .project {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust grid layout for smaller screens */
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
 }
