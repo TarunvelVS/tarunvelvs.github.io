@@ -1,10 +1,9 @@
-
 :root {
-    --color-primary: #ff0000; /* Changed to red */
+    --color-primary: #00008B; 
     --color-secondary: #000000; /* Changed to black */
-    --color-text: #2e2e2e;
+    --color-text: #000000;
     --color-background: #f9f9f9;
-    --color-accent: #ff0000; /* Changed to red */
+    --color-accent:  #00008B;  /* Changed to red */
     --color-border: #dcdcdc;
     --spacing-unit: 16px;
     --font-size-base: 16px;
@@ -19,7 +18,7 @@ a:hover, a:focus {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Didot', serif; /* Changed to Times New Roman, a serif font */
+    font-family: 'Baskerville', serif;
 }
 
 body {
